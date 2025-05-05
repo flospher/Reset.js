@@ -8,6 +8,11 @@
   ],
   "routes": [
     {
+      "src": "/webhook",
+      "dest": "api/index.js",
+      "methods": ["POST"]
+    },
+    {
       "src": "/(.*)",
       "dest": "api/index.js"
     }
