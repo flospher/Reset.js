@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // Environment variables
-const BOT_TOKEN = process.env.BOT_TOKEN || 'YOUR_BOT_TOKEN';
+const BOT_TOKEN = process.env.BOT_TOKEN || '7586442643:AAG6yURFl9EX04Au44g7NAn0TZcJA4Tla_I';
 const BASE_URL = `https://api.telegram.org/bot${BOT_TOKEN}`;
 
 // Configure axios with retries
